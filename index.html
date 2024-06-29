@@ -3,34 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet"> <!-- 你的自定义 CSS -->
+    <title>My Book List</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="mt-5" data-aos="fade-up">Welcome to My Website</h1>
-        <p data-aos="fade-up" data-aos-delay="200">This is an example of a dynamic and well-designed webpage.</p>
-        <button class="btn-custom" data-aos="fade-up" data-aos-delay="400">Click Me</button>
-        
-        <div class="card" data-aos="fade-up" data-aos-delay="600">
-            <h2>Card Title</h2>
-            <p>This is some text within a card body.</p>
+    <header>
+        <div class="container">
+            <h1>2020 Reading List</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-
+    </header>
+    <main>
+        <div class="container">
+            <section class="book-list">
+                <article class="book">
+                    <img src="https://via.placeholder.com/150" alt="Book Cover">
+                    <h2>Book Title 1</h2>
+                    <p>Author: Author Name 1</p>
+                </article>
+                <article class="book">
+                    <img src="https://via.placeholder.com/150" alt="Book Cover">
+                    <h2>Book Title 2</h2>
+                    <p>Author: Author Name 2</p>
+                </article>
+                <!-- 更多书籍... -->
+            </section>
+        </div>
+    </main>
     <footer>
-        &copy; 2024 My Personal Website. All rights reserved.
+        <div class="container">
+            <p>&copy; 2024 My Book List. All rights reserved.</p>
+        </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js"></script> <!-- 你的自定义 JS -->
-    <script>
-        AOS.init();
-    </script>
 </body>
 </html>
