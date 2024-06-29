@@ -1,4 +1,3 @@
-git clone https://github.com/daixiaoming11/daixiaoming11.github.io.git
-cd daixiaoming11.github.io
-
-
+git add .
+git commit -m "Create book list page"
+git push origin main
