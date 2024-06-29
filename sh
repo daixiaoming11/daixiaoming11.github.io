@@ -1,2 +1,4 @@
-git add .
-git commit -m "Customize CSS for dynamic and well-designed webpage"
+git clone https://github.com/daixiaoming11/daixiaoming11.github.io.git
+cd daixiaoming11.github.io
+
+
